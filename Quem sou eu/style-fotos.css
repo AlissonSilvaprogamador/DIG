@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+
+body {
+    background: url('fotos/Sibologrande.png') no-repeat 100px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+div#interface {
+    width: 1000px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
+
+h1 {
+    color:darkblue;
+    background-color: rgb(94, 255, 0);
+}
+
+h2 {
+    color: darkred;
+}
+
+p {
+    text-align: justify;
+}
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px black;
+    width: 20%;
+    height: 20%;
+    
+    
+    
+    
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0, .1);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 1s;
+    
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+
+    ul#album-fotos li#foto02 {
+        background: url("fotos/celular.jpg.jpg") no-repeat;
+        background-position: 50% 50%;
+        background-size: 100px 100px;
+        background-color: #ffffff;
+    }
+    
+    
+    ul#album-fotos li#foto02:hover {
+        background-position: 0px 0px;
+        background-size: 250px 200px; }
+
+        ul#album-fotos li#foto03 {
+            background: url("fotos/computador1.jpg") no-repeat;
+            background-position: 50% 50%;
+            background-size: 100px 100px;
+            background-color: #ffffff;
+        }
+        
+        
+        ul#album-fotos li#foto03:hover {
+            background-position: 0px 0px;
+            background-size: 250px 200px; }
+
+            ul#album-fotos li#foto04 {
+                background: url("fotos/impressoras.jpg") no-repeat;
+                background-position: 50% 50%;
+                background-size: 100px 100px;
+                background-color: #ffffff;
+            }
+            
+            
+            ul#album-fotos li#foto04:hover {
+                background-position: 0px 0px;
+                background-size: 250px 200px; }
+
+
+                ul#album-fotos li#foto05 {
+                    background: url("fotos/computador2.jpg") no-repeat;
+                    background-position: 50% 50%;
+                    background-size: 100px 100px;
+                    background-color: #ffffff;
+                }
+                
+                
+                ul#album-fotos li#foto05:hover {
+                    background-position: 0px 0px;
+                    background-size: 250px 200px; }
+
+
+
+
+
+
+    
+
+    ul#album-fotos {
+        width: 700px;
+        margin: 0 auto;
+        padding: 50px;
+        overflow: hidden;
+        list-style: none;
+    }
+    ul#album-fotos li span {
+        opacity: 0;
+        color: #ffffff;
+        text-shadow: 1px 1px 1px black;
+        background-color: rgba(0, 0, 0, .4);
+        font-size: 9pt;
+        line-height: 370px;
+        padding: 5px;
+    
+    }
+    
+    ul#album-fotos li:hover {
+        transition: 2s;
+    }
+
+    ul#album-fotos li:hover span {
+        opacity: 1;
+    }
+
+    ul#album-fotos li {
+        float: left;
+        width: 250px;
+        height: 200px;
+        margin: 10px;
+        border: 5px solid rgb(255, 255, 255);
+        background-color: #ffffff;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+        transition: 1,5s;
+        
+    }
+
+

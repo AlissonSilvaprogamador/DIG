@@ -1,0 +1,407 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'fontelogo';
+
+    
+    src: url('família da fonte: Roboto, sans-serif')
+}
+
+/*#=id .=class - :pseudo
+
+    gradiente */
+body {
+    background-image: linear-gradient(to bottom , #11F01C , #0DBD16, #19701D );
+    background-attachment: fixed;
+
+    color: rgb(0, 0, 0);
+    font-family: Times,arial,helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: unset;
+}
+
+
+
+
+
+
+
+div#interface {
+    width: 1000px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
+
+
+
+
+
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1000px;
+    top: 90px;
+    
+}
+
+header#cabecalho h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    font-size: 30pt;
+    color: #000000;
+    text-shadow: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+header#cabecalho h2 {
+    font-family: arial, sans-serif;
+    font-size: 15pt;
+    color: #000000;
+    padding: -20px;
+    margin-top: 0px;
+
+}
+    
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url(Fotos/Logo.png) no-repeat 0px 95px;
+}
+
+
+
+
+
+
+
+
+
+/*Fontes (tamanhosos e letras)*/
+
+h1 {
+    color:darkblue;
+    background-color: rgb(94, 255, 0);
+    text-align: justify;
+}
+
+h2 {
+    color: darkred
+}
+
+
+
+
+
+
+
+
+/*Paragrafos e links*/
+
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.especial:active {
+    color: blue;
+}
+
+.especial:visited  {
+   color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: inherit;
+}
+a {
+    color: #606060;
+    text-decoration: none; }
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/*Imagens*/
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px black;
+    border-radius: 10px;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+/*Meun*/
+
+nav#menu{
+    display: block;
+}
+
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 630px;
+    
+   
+    
+}
+nav#menu li {
+    display: inline-block;
+    background-color: #aaaaaa;
+    padding: 5px;
+    margin: auto;
+    transition: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu li {
+    color: #000000;
+}
+
+nav#menu li:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+/*Corpor*/
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+
+}
+
+header#cabecalho2 h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20pt;
+    color: #000000;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.direita {
+    text-align: right;
+}
+
+header#cabecalho2 h2 {
+    font-size: 13px;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+
+}
+
+header#cabecalho2 h3 {
+    font-size: 12pt;
+    color: #606060;
+
+}
+
+
+article#noticiaprincipal h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px ;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Links*/
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, .4);
+}
+
+aside#lateral h1 {
+    font-family: 'fontelogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    background-color: #dddddd;
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 12pt;
+    color: #ffffff;
+    padding: 5px;
+    
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+    
+}
+
+
+
+a#local {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 1px rgb(192, 188, 188);
+    padding: 10px; /* todos os lados*/
+    margin: 20px;
+    width: 500px;
+    background-color: #88ff00;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 0px;
+    box-shadow: 1px 2px 3px black;
+    text-decoration: none;
+    transition: 1s;  
+     
+}
+
+a#instagram {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 1px rgb(192, 188, 188);
+    padding: 10px; /* todos os lados*/
+    margin: 20px;
+    width: 500px;
+    background-color: #88ff00;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 0px;
+    box-shadow: 1px 2px 3px black;
+    text-decoration: none;
+    transition: 1s;  
+     
+}
+
+a#face {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 1px rgb(192, 188, 188);
+    padding: 10px; /* todos os lados*/
+    margin: 20px;
+    width: 500px;
+    background-color: #88ff00;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 0px;
+    box-shadow: 1px 2px 3px black;
+    text-decoration: none;
+    transition: 1s;  
+     
+}
+
+
+footer#rodape a:hover {
+    background-color: #00ff0d;
+}
+
+p#final {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 5px rgb(192, 188, 188);
+    padding: 5px; /* todos os lados*/
+    margin: auto;
+    width: 500px;
+    background-color: #88ff00;
+    color: rgb(0, 0, 0);
+    border-radius: 20px 0px; 
+    border-image: url(download.jpg) 27 repeat;
+}

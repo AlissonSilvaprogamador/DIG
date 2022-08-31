@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+
+img#perfil {
+    top: 100px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 1.5s;
+}
+
+
+/*Informaões*/
+
+table#tabela1 {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+table#tabela1 td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    font-weight: bold;
+
+}
+
+table#tabela1 td.cd {
+    background-color: #cecece;
+    
+}
+
+table#tabela1 caption {
+    color: #888888;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+
+table#tabela1 caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+
+    
+}
+
+
+table#tabela1 td {
+    border: 1px solid #606060;
+    padding: 10px;
+    
+}
